@@ -4,9 +4,7 @@ import java.util.ArrayList;
  * does this iteratively while listSubsetsRecursive(int index, int[] set) does this recursively.*/
 public class powerSet {
 	public static void main (String[] args){
-		int[] set = {5,9,3};
-		ArrayList<ArrayList<Integer>> subsets = listSubsetsRecursive(0,set);
-		outputList(subsets);
+	
 	}
 	
 	/*This method iteratively creates and stores all subsets of a set. This method does this by
